@@ -49,9 +49,7 @@ export default function Home(initialData) {
                     <Link
                         href="/search/[pid]"
                         as={`/search/${searchTerm}`}>
-
                             {`https://giphysearch-rouge.vercel.app/search/${searchTerm}`}
-
                     </Link>
 
                 </p>
